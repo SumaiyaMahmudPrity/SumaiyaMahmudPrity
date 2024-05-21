@@ -59,6 +59,25 @@ img{
     align-items: center;
     padding: 16px;
   }
+  .contactus-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 24px;
+  
+  }
+  label{
+    display: block;
+    margin-left: 12px;
+  }
+  
+  input, textarea{
+    width: 260px;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #1E2738; 
+    border-radius: 8px;
+  }
+  
  
 
   
