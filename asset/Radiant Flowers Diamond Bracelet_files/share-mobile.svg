@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="b" transform="translate(0)">
+    <g id="c" transform="translate(0)">
+      <g id="Group_14225" data-name="Group 14225" opacity="0.46">
+        <path id="Path_1386" data-name="Path 1386" d="M.05.05v24h24V.05ZM22.543,22.543H1.565V1.558H22.543Z" transform="translate(-0.05 -0.05)" fill="none"/>
+      </g>
+    </g>
+    <g id="d" transform="translate(1.513 1.566)">
+      <g id="Group_14227" data-name="Group 14227">
+        <line id="Line_103" data-name="Line 103" x1="0.106" y1="0.076" transform="translate(15.553 19.918)" fill="none" stroke="#fff" stroke-width="0.75"/>
+        <line id="Line_104" data-name="Line 104" x1="8.37" y1="6.066" transform="translate(3.778 11.454)" fill="none" stroke="#fff" stroke-width="0.75"/>
+        <path id="Path_1387" data-name="Path 1387" d="M21.688,26.424a2.113,2.113,0,0,1-.38,1.232,2.052,2.052,0,0,1-1.7.92,2.167,2.167,0,0,1-1.7-3.39,2.026,2.026,0,0,1,1.7-.935,2.123,2.123,0,0,1,2.075,2.167Z" transform="translate(-5.755 -7.745)" fill="none" stroke="#fff" stroke-width="0.75"/>
+        <line id="Line_105" data-name="Line 105" x1="8.339" y2="5.876" transform="translate(3.801 3.303)" fill="none" stroke="#fff" stroke-width="0.75"/>
+        <line id="Line_106" data-name="Line 106" x1="0.084" y2="0.053" transform="translate(15.576 0.897)" fill="none" stroke="#fff" stroke-width="0.75"/>
+        <path id="Path_1388" data-name="Path 1388" d="M21.691,4.277a2.121,2.121,0,0,1-2.075,2.159,2.028,2.028,0,0,1-1.71-.943,2.167,2.167,0,0,1-.365-1.216A2.118,2.118,0,0,1,19.615,2.11a2.07,2.07,0,0,1,1.726.958A2.162,2.162,0,0,1,21.7,4.284Z" transform="translate(-5.757 -2.11)" fill="none" stroke="#fff" stroke-width="0.75"/>
+        <path id="Path_1389" data-name="Path 1389" d="M6.2,15.207a2.06,2.06,0,0,1-.38,1.232,2.026,2.026,0,0,1-1.7.935,2.169,2.169,0,0,1,0-4.333,2.074,2.074,0,0,1,1.726.943A2.205,2.205,0,0,1,6.2,15.207Z" transform="translate(-2.04 -4.892)" fill="none" stroke="#fff" stroke-width="0.75"/>
+      </g>
+    </g>
+  </g>
+</svg>

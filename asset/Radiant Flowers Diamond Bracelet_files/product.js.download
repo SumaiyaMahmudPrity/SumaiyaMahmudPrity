@@ -1,0 +1,34 @@
+(function() {
+  let search = window.location.search;
+  if (search.indexOf('mode=publitas') !== -1) {
+
+    let cssLink = 'https://scripts.publitas.com/tanishq/e-com/product.css';
+    document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" type="text/css" href="' + cssLink + '">');
+
+    window.addEventListener('message', function(message) {
+      try { var event = JSON.parse(message.data); var type = event[0]; var data = event[1]; } catch (e) { var type = null; }
+      switch (type) {
+        case "initTracking":
+          if (window.publitasTracker) {
+            window.publitasTracker.publitasSetCustomerContext(data);
+          } else {
+            document.addEventListener('publitasTrackerReady', () => {
+              window.publitasTracker.publitasSetCustomerContext(data);
+            })
+          }
+          break;
+        default:
+          return;
+      }
+    });
+
+    setTimeout(function() {
+      document.body.addEventListener("click", function(e) {
+        if (e.target.closest("a")) {
+          e.target.closest("a").target = '_blank';
+        }
+      })
+      parent.postMessage(JSON.stringify(['publitasPdpModalLoaded', '', ''], '*'));
+    }, 250);
+  }
+})();
